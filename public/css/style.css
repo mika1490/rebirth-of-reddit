@@ -1,4 +1,34 @@
-html {
-  background: red;
-  display: none;
-  color: white; }
+body {
+  width: 100%;
+  background-image: url("../assets/bg.jpg"); }
+
+#main {
+  margin: 0 auto;
+  width: 1200px;
+  /* Add a card effect for articles */ }
+  #main .header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    background-image: url("../assets/logo.svg");
+    background-position: center;
+    background-repeat: no-repeat; }
+  #main .menu {
+    overflow: hidden;
+    background-color: #333; }
+  #main .square {
+    text-align: left;
+    width: 320px;
+    height: 320px;
+    background-color: white;
+    padding: 20px;
+    margin: 20px; }
+    #main .square .picture {
+      margin: auto;
+      width: 50%;
+      height: 50%;
+      border: 3px solid black;
+      padding: 10px; }
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
