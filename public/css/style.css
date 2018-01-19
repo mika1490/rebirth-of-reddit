@@ -1,34 +1,76 @@
 body {
   width: 100%;
-  background-image: url("../assets/bg.jpg"); }
+  background-image: url("../assets/bg.jpg");
+  font-family: sans-serif; }
 
-#main {
-  margin: 0 auto;
-  width: 1200px;
-  /* Add a card effect for articles */ }
-  #main .header {
+#mainMenu {
+  height: 120px; }
+  #mainMenu .header {
     background-color: white;
     padding: 20px;
     text-align: center;
     background-image: url("../assets/logo.svg");
     background-position: center;
     background-repeat: no-repeat; }
-  #main .menu {
+  #mainMenu .menu {
     overflow: hidden;
     background-color: #333; }
+  #mainMenu .menuA {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+  #mainMenu .menuB {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+  #mainMenu .menuC {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+  #mainMenu .menuA:hover {
+    background-color: #ddd;
+    color: black; }
+  #mainMenu .menuB:hover {
+    background-color: #ddd;
+    color: black; }
+  #mainMenu .menuC:hover {
+    background-color: #ddd;
+    color: black; }
+
+#main {
+  margin: 0 auto;
+  width: 1200px; }
+  #main .collection {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 3px solid black; }
   #main .square {
     text-align: left;
-    width: 320px;
-    height: 320px;
+    width: 318px;
+    height: 390px;
     background-color: white;
-    padding: 20px;
-    margin: 20px; }
-    #main .square .picture {
-      margin: auto;
-      width: 50%;
-      height: 50%;
-      border: 3px solid black;
-      padding: 10px; }
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
+    margin: 0 auto;
+    padding: 10px;
+    border: 3px solid black; }
+  #main .picture {
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    padding: 10px; }
+  #main .title {
+    text-align: left;
+    font-weight: bold; }
+  #main .author {
+    text-align: left;
+    margin: auto;
+    padding: 2px; }
